@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Fast";
+  src: url("./fonts/Ubuntu-Bold.ttf");
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Fast";
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+strong.orange {
+  color: #ffc100;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.headerContent {
+  width: 100%;
+}
+.headerContent .header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 5px 15vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerContent .header .buttons {
+  display: flex;
+}
+.headerContent .header .buttons a {
+  margin: 0px 15px;
+  transition: color 1s ease;
+  color: white;
+  text-transform: uppercase;
+}
+.headerContent .header .buttons a:hover {
+  transition: color 0.6s ease;
+  color: #ffc100;
+}
+
+.logoContent .logoTitle {
+  background-image: url("./img/Taksi.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoContent .logoTitle .title {
+  width: 800px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  font-size: 76px;
+  color: #ffffff;
+  text-align: center;
+  font-family: monospace;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: monospace;
+  margin-top: 90px;
+}
+.aboutContent .title {
+  width: 1000px;
+  text-align: center;
+}
+.aboutContent .title h3 {
+  font-size: 50px;
+}
+.aboutContent .title p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #ffc100;
+  padding-bottom: 30px;
+}
+.aboutContent .title p img {
+  margin: 0px 50px;
+}
+
+.waysContent {
+  margin-top: 50px;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  color: #ffffff;
+  background-color: rgb(17, 17, 17);
+  font-family: monospace;
+  font-size: 35px;
+}
+.waysContent .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.waysContent .content .title {
+  font-size: 50px;
+}
+.waysContent .content .wayList {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.waysContent .content .wayList p {
+  padding: 0px 100px;
+  border-left: 5px dashed rgb(255, 255, 255);
+  border-right: 5px dashed rgb(255, 255, 255);
+}
+.waysContent .content .wayList p:nth-child(2n) {
+  color: #ffc100;
+}
+.waysContent .content .wayList p:nth-child(2n) a {
+  color: #ffc100;
+}
+.waysContent .content .wayList a {
+  border: none;
+  transition: border 0.3s ease-in-out;
+}
+.waysContent .content .wayList a:hover {
+  border-bottom: 10px solid;
+}
+
+.contactContent {
+  font-size: 30px;
+}
+.contactContent .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.contactContent .contact .orange {
+  margin: 0px 20px;
+  padding: 5px 10px;
+  border-bottom: 3px solid black;
+}
+.contactContent .contact a {
+  color: #ffc100;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(17, 17, 17);
+}/*# sourceMappingURL=style.css.map */
