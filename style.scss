@@ -79,7 +79,7 @@
     font-family:monospace;
     margin-top: 90px;
     .title{
-        width: 1000px;
+        width: 900px;
         text-align: center;
         h3{
             font-size: 50px;
@@ -170,3 +170,187 @@ footer{
     padding: 10px;
     background-color: rgb(17, 17, 17);
 }
+
+
+// media tags
+@media(max-width:900px){
+    .logoContent {
+        .logoTitle{
+            .title{
+                font-size: 50px;
+            };
+        };
+    };
+    .headerContent {
+        .header{
+            padding: 10px 30px;
+            .buttons {
+                font-size: 15px;
+                };
+            };
+        };
+          
+    .aboutContent{
+        .title{
+            font-size: 20px;
+            width: 600px;
+        };
+    };
+    .waysContent{
+        .content{
+            .wayList{
+                p{
+                    font-size: 30px;
+                    padding: 20px;
+                };
+            };
+        };
+    };
+};
+
+@media(max-width:605px){
+    .headerContent {
+        .header{
+            padding: 10px 30px;
+            .logo{
+                font-size: 10px;
+            }
+            .buttons {
+                font-size: 10px;
+                };
+            };
+        };
+          
+    .aboutContent{
+        .title{
+            font-size: 15px;
+            width: 450px;
+            h3{
+                font-size: 40px
+            }
+        };
+    };
+    .waysContent{
+        .content{
+            .wayList{
+                p{
+                    font-size: 20px;
+                    padding: 10px;
+                };
+            };
+        };
+    };
+
+    .contactContent {
+        .contact {  
+            h2{
+                font-size: 30px;
+            };
+            h3{
+                font-size: 20px;
+            };
+        }
+    }
+    footer{
+        font-size: 5px;
+    }
+};
+
+@media(max-width:480px){
+    .headerContent {
+        .header{
+            padding: 10px 30px;
+            .logo{
+                font-size: 10px;
+            }
+            .buttons {
+                font-size: 10px;
+                };
+            };
+        };
+          
+    .aboutContent{
+        margin: 50px;
+        .title{
+            .aboutLogo{
+                margin: 10px;
+                width:40px;
+            }
+            font-size: 15px;
+            width: 250px;
+            h3{
+                font-size: 30px
+            }
+        };
+    };
+    .waysContent{
+        .content{
+            .title{
+                h3{
+                    font-size: 40px;
+                }
+            }
+            .wayList{
+                p{
+                    font-size: 15px;
+                    padding: 10px;
+                };
+            };
+        };
+    };
+
+    .contactContent {
+        .contact {  
+            h2{
+                font-size: 30px;
+            };
+            h3{
+                font-size: 20px;
+            };
+        }
+    }
+    footer{
+        font-size: 5px;
+    }
+};
+
+@media(max-width:450px){
+    .logoContent {
+        .logoTitle{
+            .title{
+                font-size: 30px;
+            };
+        };
+    };
+    .headerContent {
+        .header{
+            display: flex;
+            justify-content: center;
+            padding: 10px 10px;
+            .logo{
+                display: none;
+                font-size: 10px;
+            }
+            .buttons {
+                font-size: 10px;
+                };
+            };
+        };
+          
+};
+
+@media(max-width:405px){
+    .contactContent {
+        .contact {  
+            h2{
+                font-size: 20px;
+            };
+            h3{
+                font-size: 18px;
+            };
+            .orange{
+                border-bottom: 2px solid black
+            }
+        }
+    }
+};
